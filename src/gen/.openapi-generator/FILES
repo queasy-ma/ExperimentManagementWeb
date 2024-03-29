@@ -1,0 +1,10 @@
+.openapi-generator-ignore
+apis/DefaultApi.ts
+apis/index.ts
+index.ts
+models/AllDataDto.ts
+models/CourseDto.ts
+models/ExperimentContentDto.ts
+models/ExperimentDto.ts
+models/index.ts
+runtime.ts
