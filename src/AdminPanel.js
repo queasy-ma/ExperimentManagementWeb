@@ -200,7 +200,7 @@ export default function AdminPanel() {
     const handleExport = async (selectedCourses, selectedExperiments, exportType) => {
         try {
             // 基础URL，包括了API的基础路径和导出类型
-            const baseUrl = `http://114.116.239.178:8080/export/${exportType}`;
+            const baseUrl = `http://127.0.0.1:8080/export/${exportType}`;
 
             // 使用URLSearchParams来构建查询字符串
             const params = new URLSearchParams();
